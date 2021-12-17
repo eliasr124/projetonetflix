@@ -14,8 +14,3 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
-
-document.getElementById('botao1').addEventListener("click", (event) => {
-    alert('voce clicou')
-    // window.location.replace("http://stackoverflow.com");
-})
