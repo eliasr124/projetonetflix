@@ -63,7 +63,7 @@ header nav a:hover{/*pinta a linha de branco na passagem do mouse*/
     font-family: 'Trebuchet M', Arial, sans-serif;
 }
 
-.botao, #botao1{
+#botao, #botao1{
     background-color: rgba(0, 0, 0, .50);
     border: none;
     color: white;
@@ -74,12 +74,12 @@ header nav a:hover{/*pinta a linha de branco na passagem do mouse*/
     transition: .3s ease all;
 }
 
-.botao:hover, #botao1:hover{
+#botao:hover, #botao1:hover{
     background-color: white;
     color: black;
 }
 
-.botao, #botao1 i{
+#botao, #botao1 i{
     margin-right: 8px;
 }
 

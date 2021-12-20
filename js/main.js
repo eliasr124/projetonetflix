@@ -14,3 +14,19 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+//mais informacoes
+document.getElementById('botao').addEventListener('click', (event) => {
+    event.preventDefault();
+    setTimeout(() =>{
+        window.location.href ='https://www.papodecinema.com.br/filmes/alien-vs-predador/';
+    }, 1000);
+});
+
+//Assistir
+document.getElementById('botao1').addEventListener('click', (event) => {
+    event.preventDefault();
+    setTimeout(() =>{
+        window.location.href ='https://www.youtube.com/watch?v=55w8Qe-YyDA';
+    }, 1000);
+});
